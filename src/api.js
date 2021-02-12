@@ -29,7 +29,14 @@ export default {
   updateProduct (id, data) {
     return this.execute('put', `/product/${id}`, data)
   },
+  updateProducts (data) {
+    return this.execute('patch', `/product`, data)
+  },
   deleteProduct (id) {
     return this.execute('delete', `/product/${id}`)
+  },
+  deleteProducts (data) {
+    return this.execute('delete', `/product`, data)
   }
+
 }
