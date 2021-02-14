@@ -23,6 +23,9 @@ export default {
   getProduct (id) {
     return this.execute('get', `/product/${id}`)
   },
+  getProductLog (id) {
+    return this.execute('get', `/productLogs/${id}`)
+  },
   createProduct (data) {
     return this.execute('post', '/product', data)
   },

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
 import Product from '@/components/Product'
 import Auth from '@okta/okta-vue'
 
@@ -18,12 +17,8 @@ let router = new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
-    },
-    {
-      path: '/implicit/callback',
-      component: Auth.handleCallback()
+      name: 'Home',
+      component: Product
     },
     {
       path: '/product',
@@ -35,7 +30,5 @@ let router = new Router({
     }
   ]
 })
-
-router.beforeEach(Vue.prototype.$auth.authRedirectGuard())
 
 export default router
