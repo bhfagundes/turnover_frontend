@@ -233,11 +233,7 @@ export default {
         this.deleteSelectedProduct()
       }
       this.refreshProduct()
-
     }
   }
 }
 </script>
-
-
-
