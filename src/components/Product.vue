@@ -232,7 +232,8 @@ export default {
       } else {
         this.deleteSelectedProduct()
       }
-      await this.refreshProduct()
+      this.refreshProduct()
+
     }
   }
 }
