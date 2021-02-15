@@ -35,7 +35,6 @@
                   <mdb-datatable-2 v-model="dataLog"  />
                 </mdb-modal-footer>
               </mdb-modal>
-            </mdb-col>
           </mdb-row>
     </section>
     <section class="demo-section">
