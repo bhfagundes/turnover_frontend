@@ -29,9 +29,9 @@ npm test
 ## Arquitetura do Projeto
 > Escolha do Framework:
 >> Para desenvolvimento do projeto, foi escolhido o VueJS. Foi escolhido este framework devido sua boa curva de aprendizagem, excelente documentação e não menos importante, não tinha contato com o framework à cerca de 2 anos, então foi uma forma de reencontrá-lo.
-> Organização do projeto:
->> Por se tratar de um projeto pequeno, a sua estrutura se encontra bem simples. Desta forma temos:
->>> /src/componentes : Neste diretório temos o componente Product, responsável por frontend + scripts de controle da tela de produtos
->>> /src/router/index.js : neste arquivo temos a parte de roteamento, ou seja temos um relacionamento direto da url requisitada e o componente que deverá ser carregado
->>> /src/api.js : arquivo responsável para mapear e consumir as apis necessárias para o CRUD
->>> /config : nesta pasta temos as configurações de ambiente, ou seja, podemos parametrizar por exemplo o host e porta do backend.
+>> Organização do projeto:
+- Por se tratar de um projeto pequeno, a sua estrutura se encontra bem simples. Desta forma temos:
+- /src/componentes : Neste diretório temos o componente Product, responsável por frontend + scripts de controle da tela de produtos
+- /src/router/index.js : neste arquivo temos a parte de roteamento, ou seja temos um relacionamento direto da url requisitada e o componente que deverá ser carregado
+- /src/api.js : arquivo responsável para mapear e consumir as apis necessárias para o CRUD
+- /config : nesta pasta temos as configurações de ambiente, ou seja, podemos parametrizar por exemplo o host e porta do backend.
